@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android"
+    tools:context=".ResetPass_Activity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/invalid_email"
+        android:textColor="@color/colorAccent"
+        android:textSize="45sp"
+        tools:text="Reset Password" />
+
+    <EditText
+        android:id="@+id/verifyem"
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/basic_button"
+        android:hint="@string/edittext10"
+        android:importantForAutofill="no"
+        android:inputType=""
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/submit"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        tools:text="Submit" />
+
+</RelativeLayout>
